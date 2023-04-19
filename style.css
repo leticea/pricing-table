@@ -269,4 +269,29 @@ section {
     transform: translateX(-25%);
     top: -18px;
   }
+
+  ul {
+    margin-top: 32px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-top: 8px;
+  }
+
+  button {
+    margin-top: 32px;
+  }
+
+  .essentials p {
+    margin-top: 15px;
+  }
+
+  .enterprise p {
+    margin-top: 15px;
+  }
+
+  .enterprise ul {
+    margin-top: 23px;
+  }
 }
