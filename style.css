@@ -97,3 +97,26 @@ button.primary:hover {
   color: var(--color-white);
   transition: all 0.2s ease;
 }
+
+ul {
+  border-top: 1px solid var(--color-gray-200);
+  padding-top: 16px;
+  margin-top: 16px;
+  list-style: none;
+  display: grid;
+  gap: 16px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+li span {
+  flex: 1;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: var(--color-gray-600);
+}
