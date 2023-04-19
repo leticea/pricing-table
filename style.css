@@ -244,21 +244,29 @@ section {
     gap: 32px;
 
     position: absolute;
-    min-width: 1000px;
-    height: 454px;
-    left: 15%;
+    min-width: 1216px;
+    min-height: 454px;
+    left: 7%;
     top: 20%;
 
-    border: 1px solid red;
+    //border: 1px solid red;
   }
 
   section .inner {
     height: 454px;
-    padding: 48px 32px 32px;
-    //isolation: isolate;
+    min-width: 384px;
+    margin: 0;
   }
 
   .ultimate {
     margin-top: 0;
+    position: relative;
+  }
+
+  .ultimate::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-25%);
+    top: -18px;
   }
 }
