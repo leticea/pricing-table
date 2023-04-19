@@ -197,3 +197,31 @@ button.secondary:hover {
   background-color: var(--color-purple-200);
   transition: all 0.2s ease;
 }
+
+.ultimate ul {
+  border-color: var(--color-gray-700);
+}
+
+.ultimate li span {
+  color: var(--color-gray-300);
+}
+
+.ultimate li .ph-info {
+  color: var(--color-gray-500);
+}
+
+section .inner:hover {
+  border-color: var(--color-purple-100);
+}
+
+section .inner {
+  transition: border 300ms;
+}
+
+section:hover {
+  transform: scale(1.05);
+}
+
+section {
+  transition: transform 300ms;
+}
