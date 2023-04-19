@@ -91,3 +91,9 @@ button {
   color: var(--color-gray-800);
   cursor: pointer;
 }
+
+button.primary:hover {
+  background-color: var(--color-gray-800);
+  color: var(--color-white);
+  transition: all 0.2s ease;
+}
