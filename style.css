@@ -150,3 +150,50 @@ li i.ph-info {
   padding-top: 32px;
   margin-top: 32px;
 }
+
+.ultimate {
+  margin-top: 16px;
+  position: relative;
+}
+
+.ultimate::before {
+  content: "MAIS VANTAJOSO";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gray-900);
+  display: inline-block;
+  background-color: var(--color-orange);
+  padding: 8px 16px;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -17px;
+}
+
+.ultimate .inner {
+  padding-top: 40px;
+  background-color: var(--color-gray-900);
+}
+
+.ultimate .title,
+.ultimate .price {
+  color: var(--color-gray-50);
+}
+
+.inner p {
+  color: var(--color-purple-100);
+}
+
+button.secondary {
+  background-color: var(--color-purple-100);
+  color: var(--color-white);
+}
+
+button.secondary:hover {
+  background-color: var(--color-purple-200);
+  transition: all 0.2s ease;
+}
