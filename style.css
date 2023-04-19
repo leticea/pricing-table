@@ -41,4 +41,11 @@ section .inner {
   border-radius: 10px;
 }
 
-
+.inner p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-purple-200);
+}
