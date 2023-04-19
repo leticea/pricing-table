@@ -28,3 +28,17 @@ body {
   font-family: "Titillium Web", sans-serif;
   background-color: var(--color-gray-50);
 }
+
+section {
+  width: 320px;
+  margin: auto;
+}
+
+section .inner {
+  padding: 24px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: 10px;
+}
+
+
