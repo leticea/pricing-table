@@ -224,4 +224,41 @@ section:hover {
 
 section {
   transition: transform 300ms;
+  animation: appear 400ms backwards var(--delay);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pricing-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    min-width: 1000px;
+    height: 454px;
+    left: 15%;
+    top: 20%;
+
+    border: 1px solid red;
+  }
+
+  section .inner {
+    height: 454px;
+    padding: 48px 32px 32px;
+    //isolation: isolate;
+  }
+
+  .ultimate {
+    margin-top: 0;
+  }
 }
